@@ -15,14 +15,15 @@ body {
 
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
-    bottom: 3rem;
+    bottom: 10rem;
     z-index: 10;
+    color: #000000;
   }
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
-    background-color: #777;
+    background-color: #f6f1ed;
   }
   .carousel-item > img {
     position: absolute;
@@ -30,7 +31,6 @@ body {
     left: 0;
     min-width: 100%;
     height: 32rem;
-    
   }
   
   
@@ -71,6 +71,10 @@ body {
     color: #000000;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .col-6:hover{
+    box-shadow: 0 3px 0 #252839;
   }
 
   .color-2{
