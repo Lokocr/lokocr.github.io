@@ -63,7 +63,11 @@ body {
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
-    letter-spacing: -.05rem;
+    /* letter-spacing: -.05rem; */
+  }
+
+  .featurette-image{
+    padding-top: 1rem;
   }
 
   .color-1{
@@ -122,6 +126,6 @@ body {
   
   @media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 7rem;
+      margin-top: 3rem;
     }
   }
