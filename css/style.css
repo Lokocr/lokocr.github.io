@@ -6,7 +6,7 @@ body {
     
     padding-bottom: 3rem;
     color: #c7c2c2;
-    background-color: #252839;
+    background-color: #2a2730;
   }
   
   
@@ -105,6 +105,10 @@ body {
     color: #f0f0f0;
     padding: 2rem;
     padding-bottom: 1rem;
+  }
+
+  .tech{
+    height: 10rem;
   }
   
   
